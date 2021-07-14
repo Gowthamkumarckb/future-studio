@@ -141,7 +141,7 @@ class StepOne extends Component {
           </label>
         </div>
 
-        <div className="clrs">
+        <div className="radio">
         <label>
         <p>Will you be honest in achieving your goal/while doing your tasks?</p>
             <input
