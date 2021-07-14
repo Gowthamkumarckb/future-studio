@@ -70,13 +70,14 @@ class StepOne extends Component {
        //form
   render() {
     return (
-      <div>
-        <h1>Future Studio</h1>
+      <div className="Gap">
+        <h3>Future Studio</h3>
 
         <form onSubmit={this.formSubmit}>
         <div>
           <p>Your Goal</p>
           <input type="textarea"
+          className="GoalText"
           value={this.state.Goal}
           onChange={this.onGoalChange}/>
         </div>

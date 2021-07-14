@@ -24,7 +24,7 @@ class StepTwo extends Component {
   //form
   render() {
     return (
-      <div>
+      <div className="Gap">
         <h1>Future Studio</h1>
 
         <form onSubmit={this.formSubmit}>
