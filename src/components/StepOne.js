@@ -71,32 +71,36 @@ class StepOne extends Component {
   render() {
     return (
       <div className="Gap">
-        <h3>Future Studio</h3>
-
+        <h3>Future Studio</h3><br/>
+        <div>
+        <button className="Joiningform" type="Submit">
+          ZD Joining Form
+        </button>
+        </div>
         <form onSubmit={this.formSubmit}>
         <div>
-          <p>Your Goal</p>
-          <input type="textarea"
-          className="GoalText"
+          <p style={{color:"purple"}}>Your Goal</p>
+          <textarea id="Yourgoal"
           value={this.state.Goal}
           onChange={this.onGoalChange}/>
         </div>
+        <br/>
         <div>
-          <p>Why do you want to achieve this goal?</p>
-          <input type="textarea"
+          <p style={{color:"purple"}}>Why do you want to achieve this goal?</p>
+          <textarea id="Achievegoal"
           value={this.state.achieve}
           onChange={this.onachieveChange}/>
         </div>
         <div>
-          <p>Your Inspiration?</p>
-          <input type="textarea"
+          <p style={{color:"purple"}}>Your Inspiration?</p>
+          <textarea id="Insperation"
           value={this.state.inspiration}
           onChange={this.onInspirationChange} />
         </div>
        
         <div className="radio">
         <label>
-          <p>Do you believe humanity still exist?</p>
+          <p style={{color:"purple"}}>Do you believe humanity still exist?</p>
             <input
               type="radio"
               value="yes"
@@ -120,7 +124,7 @@ class StepOne extends Component {
 
         <div className="radio">
         <label>
-        <p>Do you care for others?</p>
+        <p style={{color:"purple"}}>Do you care for others?</p>
             <input
               type="radio"
               value="yes"
@@ -144,7 +148,7 @@ class StepOne extends Component {
 
         <div className="radio">
         <label>
-        <p>Will you be honest in achieving your goal/while doing your tasks?</p>
+        <p style={{color:"purple"}}>Will you be honest in achieving your goal/while doing your tasks?</p>
             <input
               type="radio"
               value="yes"
@@ -166,9 +170,9 @@ class StepOne extends Component {
           </label>
         </div>
 
-        <div className="radio">
+        <div>
         <label>
-        <p>You believe you can?</p>
+        <p style={{color:"purple"}}>You believe you can?</p>
             <input
               type="radio"
               value="yes"
@@ -189,9 +193,12 @@ class StepOne extends Component {
             no
           </label>
         </div>
-        <button className="btn btn-default" type="submit">
-          Submit
+        <br/>
+        <div>
+        <button className="Submit" type="Submit">
+          SUBMIT
         </button>
+        </div>
       </form>
       </div>
     );

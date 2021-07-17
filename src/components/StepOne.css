@@ -1,3 +1,46 @@
 .Gap{
     margin-left: 20px;
 }
+.Joiningform{
+    background-color: purple;
+    border-color:purple;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    border-color: purple;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+  }
+#Yourgoal{
+    height: 60px;
+    width: 400px;
+    border-color:lightgray;
+    border-radius: 25px;
+    background: lightgray; 
+  }
+  #Achievegoal{
+    height: 120px;
+    width: 400px;
+    border-color:lightgray;
+    border-radius: 25px;
+    background: lightgray; 
+  }
+  #Insperation{
+    height: 30px;
+    width: 400px;
+    border-color:lightgray;
+    border-radius: 25px;
+    background: lightgray; 
+  }
+  .Submit{
+    background-color: purple;
+    border-color:purple;
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: purple;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }

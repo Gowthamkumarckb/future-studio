@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {MdFolder} from 'react-icons/md'
 import "./StepTwo.css";
 
 class StepTwo extends Component {
@@ -29,7 +30,7 @@ class StepTwo extends Component {
 
         <form onSubmit={this.formSubmit}>
           <div>
-            <p>Pick your Achiever Mate</p>
+            <p style={{color:"purple"}}>Pick your Achiever Mate</p>
           </div>
           <div className="radio">
             <label>
@@ -41,7 +42,7 @@ class StepTwo extends Component {
               />
               Parents
             </label>
-          </div>
+          </div><br/>
           <div className="radio">
             <label>
               <input
@@ -52,7 +53,7 @@ class StepTwo extends Component {
               />
               Friends
             </label>
-          </div>
+          </div><br/>
           <div className="radio">
             <label>
               <input
@@ -63,7 +64,7 @@ class StepTwo extends Component {
               />
               Enemy
             </label>
-          </div>
+          </div><br/>
           <div className="radio">
             <label>
               <input
@@ -74,7 +75,7 @@ class StepTwo extends Component {
               />
               Boyfriend/Girlfriend
             </label>
-          </div>
+          </div><br/>
           <div className="radio">
             <label>
               <input
@@ -85,7 +86,7 @@ class StepTwo extends Component {
               />
               Dog
             </label>
-          </div>
+          </div><br/>
           <div className="radio">
             <label>
               <input
@@ -96,7 +97,7 @@ class StepTwo extends Component {
               />
               Robot
             </label>
-          </div>
+          </div><br/>
           <div className="radio">
             <label>
               <input
@@ -107,8 +108,16 @@ class StepTwo extends Component {
               />
               Myself
             </label>
+          </div><br/><br/>
+          <div className="Gap">
+            <h1>Upload Your Files from Storage</h1>
           </div>
-
+          <div className="Icon">
+            <MdFolder color='purple' size='4rem'/>
+          </div><br/>
+          <button className="Upload" type="Submit">
+          Upload
+        </button><br/><br/><br/>
           <div>
             <input
               type="checkbox"
@@ -116,10 +125,8 @@ class StepTwo extends Component {
             />
             <label>The details said above are correct and I will be honest while
               doing the tasks. No cheating is done</label>
-          </div>
-
-
-          <button className="btn btn-default" type="submit">
+          </div><br/>
+          <button className="Accept" type="submit">
             I Accept
           </button>
         </form>
