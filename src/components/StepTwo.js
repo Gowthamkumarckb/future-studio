@@ -1,13 +1,11 @@
 import React, { Component } from "react";
-import {MdFolder} from 'react-icons/md'
+import { MdFolder } from "react-icons/md";
 import "./StepTwo.css";
 
 class StepTwo extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      
-    };
+    this.state = {};
     this.onValueChange = this.onValueChange.bind(this);
     this.formSubmit = this.formSubmit.bind(this);
   }
@@ -30,7 +28,7 @@ class StepTwo extends Component {
 
         <form onSubmit={this.formSubmit}>
           <div>
-            <p style={{color:"purple"}}>Pick your Achiever Mate</p>
+            <p style={{ color: "purple" }}>Pick your Achiever Mate</p>
           </div>
           <div className="radio">
             <label>
@@ -42,7 +40,8 @@ class StepTwo extends Component {
               />
               Parents
             </label>
-          </div><br/>
+          </div>
+          <br />
           <div className="radio">
             <label>
               <input
@@ -53,7 +52,8 @@ class StepTwo extends Component {
               />
               Friends
             </label>
-          </div><br/>
+          </div>
+          <br />
           <div className="radio">
             <label>
               <input
@@ -64,7 +64,8 @@ class StepTwo extends Component {
               />
               Enemy
             </label>
-          </div><br/>
+          </div>
+          <br />
           <div className="radio">
             <label>
               <input
@@ -75,7 +76,8 @@ class StepTwo extends Component {
               />
               Boyfriend/Girlfriend
             </label>
-          </div><br/>
+          </div>
+          <br />
           <div className="radio">
             <label>
               <input
@@ -86,7 +88,8 @@ class StepTwo extends Component {
               />
               Dog
             </label>
-          </div><br/>
+          </div>
+          <br />
           <div className="radio">
             <label>
               <input
@@ -97,7 +100,8 @@ class StepTwo extends Component {
               />
               Robot
             </label>
-          </div><br/>
+          </div>
+          <br />
           <div className="radio">
             <label>
               <input
@@ -108,24 +112,36 @@ class StepTwo extends Component {
               />
               Myself
             </label>
-          </div><br/><br/>
+          </div>
+          <br />
+          <br />
           <div className="Gap">
             <h1>Upload Your Files from Storage</h1>
           </div>
           <div className="Icon">
-            <MdFolder color='purple' size='4rem'/>
-          </div><br/>
-          <button className="Upload" type="Submit">
-          Upload
-        </button><br/><br/><br/>
-          <div>
-            <input
-              type="checkbox"
-              onChange={this.handleCheckClick}
+            <textarea
+              id="Yourgoal"
+              value={this.state.Goal}
+              onChange={this.onGoalChange}
             />
-            <label>The details said above are correct and I will be honest while
-              doing the tasks. No cheating is done</label>
-          </div><br/>
+
+            <MdFolder color="purple" size="4rem" />
+          </div>
+          <br />
+          <button className="Upload" type="Submit">
+            Upload
+          </button>
+          <br />
+          <br />
+          <br />
+          <div>
+            <input type="checkbox" onChange={this.handleCheckClick} />
+            <label>
+              The details said above are correct and I will be honest while
+              doing the tasks. No cheating is done
+            </label>
+          </div>
+          <br />
           <button className="Accept" type="submit">
             I Accept
           </button>
