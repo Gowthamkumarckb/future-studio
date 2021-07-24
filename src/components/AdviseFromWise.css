@@ -1,0 +1,86 @@
+.Gap{
+    margin-left: 20px;
+  }
+    #wise{
+      margin: 30px;
+      background-color:beige;
+      border-color:beige;
+      width: 120px;
+      height: 40px;
+      border-radius: 20px;
+      color: #A11CF9;
+      font-size: 13px;
+      text-align: center;
+    }
+    .container{
+      width: 880px;
+      height: 300px;
+      border-radius: 25px;
+      border-color: #A11CF9;
+      background-color:#A11CF9;
+      margin-left: 50px;
+      margin-top: 20px;
+    }
+    #introducing{
+      text-align: center;
+      font-size: 30px;
+      margin-left: 10px;
+      color: white;
+    }
+    #butsix{
+      margin-left: 350px;
+      margin-top: 20px;
+      background-color: white;
+      border-color:white;
+      width: 160px;
+      height: 40px;
+      border-radius: 10px;
+      color: #A11CF9;
+      font-size: 17px;
+      text-align: center;
+    }
+    .query
+    {
+      margin-left: 50px;
+      font-weight: 10px;;
+    }
+    #YourQuery{
+      margin-left:50px;
+      height: 30px;
+      width: 600px;
+      border-color:lightgray;
+      border-radius: 25px;
+      background: lightgray; 
+    }
+    .seeall
+    {
+      margin-top: -30px;
+      margin-left: 550px;
+      font-weight: 10px;
+      color: #A11CF9;
+    }
+    .Queryone{
+      margin-left: 130px;
+      height: 60px;
+      width: 850px;
+      border-color: #A11CF9;
+      border-radius: 25px;
+      background: #A11CF9;
+      color: white;
+    }
+    #Querytwo{
+      margin-left: 130px;
+      height: 60px;
+      width: 850px;
+      border-color:#A11CF9;
+      border-radius: 25px;
+      background: #A11CF9;
+      color: white;
+    }
+    .photo{
+      display: flex;
+      margin-left: 90px;
+    }
+    .add{
+      margin-top:-5px;
+    }

@@ -2,29 +2,39 @@
     margin-left: 20px;
 }
 .Icon{
-    margin-left: 40px;
+    margin-top:-40px;
+    margin-left: 20px;
 }
 .Upload{
+    margin: 20px;
     margin-left: 100px;
-    background-color: purple;
-    border-color:purple;
-    width: 120px;
-    height: 50px;
+    margin-bottom:-10px;
+    background-color:#A11CF9;
+    border-color:#A11CF9; 
+    width: 100px;
+    height: 40px;
     border-radius: 25px;
-    border-color: purple;
     color: white;
     font-size: 15px;
     text-align: center;
   }
   .Accept{
     margin-left: 100px;
-    background-color: purple;
-    border-color:purple;
-    width: 120px;
-    height: 50px;
+    background-color:#A11CF9;
+    border-color:#A11CF9; 
+    width: 100px;
+    height: 40px;
     border-radius: 25px;
-    border-color: purple;
+    border-color:#A11CF9;
     color: white;
     font-size: 15px;
     text-align: center;
+  }
+  #uploadFile{
+    width: fit-content;
+    background-color: lightgray;
+    height: 30px;
+    margin: 10px;
+    border-radius:20px;
+    margin-left: 50px;
   }

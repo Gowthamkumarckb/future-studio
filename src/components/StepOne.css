@@ -2,45 +2,45 @@
     margin-left: 20px;
 }
 .Joiningform{
-    background-color: purple;
-    border-color:purple;
-    width: 100px;
-    height: 50px;
-    border-radius: 15px;
-    border-color: purple;
-    color: white;
-    font-size: 10px;
+    background-color:#6200D3;
+    border-color:#6200D3;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;  
     text-align: center;
   }
 #Yourgoal{
     height: 60px;
     width: 400px;
     border-color:lightgray;
-    border-radius: 25px;
+    border-radius: 10px;
     background: lightgray; 
   }
   #Achievegoal{
     height: 120px;
     width: 400px;
     border-color:lightgray;
-    border-radius: 25px;
+    border-radius: 10px;
     background: lightgray; 
   }
   #Insperation{
     height: 30px;
     width: 400px;
     border-color:lightgray;
-    border-radius: 25px;
+    border-radius: 10px;
     background: lightgray; 
   }
   .Submit{
-    background-color: purple;
-    border-color:purple;
+    background-color: #6200D3;
+    border-color:#6200D3;
     width: 120px;
     height: 50px;
     border-radius: 25px;
-    border-color: purple;
+    border-color: #6200D3;
     color: white;
     font-size: 15px;
     text-align: center;
+  }
+  .rad{
+    margin: 10px;
   }
