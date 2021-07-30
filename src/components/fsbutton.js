@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import "./fsbutton.css";
 
 function Fsbutton() {
   return (
     <div>
       <div className="Gap">
-        <h1>Future Studio</h1>
+        <h5>Future Studio</h5>
         <button className="ActivityStudio" type="Submit">
           Activity Studio
         </button>
@@ -20,8 +20,7 @@ function Fsbutton() {
         </button>
       </div>
     </div>
-  )
+  );
 }
 
 export default Fsbutton;
-

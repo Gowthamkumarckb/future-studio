@@ -1,40 +1,66 @@
-.Gap{
-    margin-left: 20px;
+.Gap {
+  margin-left: 20px;
 }
-.Icon{
-    margin-top:-40px;
-    margin-left: 20px;
+h5 {
+  font-weight: bold;
 }
-.Upload{
-    margin: 20px;
-    margin-left: 100px;
-    margin-bottom:-10px;
-    background-color:#A11CF9;
-    border-color:#A11CF9; 
-    width: 100px;
-    height: 40px;
-    border-radius: 25px;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-  }
-  .Accept{
-    margin-left: 100px;
-    background-color:#A11CF9;
-    border-color:#A11CF9; 
-    width: 100px;
-    height: 40px;
-    border-radius: 25px;
-    border-color:#A11CF9;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-  }
-  #uploadFile{
-    width: fit-content;
-    background-color: lightgray;
-    height: 30px;
-    margin: 10px;
-    border-radius:20px;
-    margin-left: 50px;
-  }
+.Icon {
+  margin-top: -40px;
+  margin-left: 20px;
+}
+.Upload {
+  margin: 20px;
+  margin-left: 100px;
+  margin-bottom: -10px;
+  background-color: #a11cf9;
+  border-color: #a11cf9;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+.Accept {
+  margin-left: 100px;
+  background-color: #a11cf9;
+  border-color: #a11cf9;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  border-color: #a11cf9;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+#formFileLg {
+  width: fit-content;
+  background-color: lightgray;
+  height: 50px;
+  margin: 10px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+.form-check {
+  margin: 15px;
+}
+.folder {
+  color: #a11cf9;
+}
+.btn-upload {
+  background: linear-gradient(to right, #a11cf9, #7201c8);
+  color: white;
+  border-radius: 30px;
+  margin-left: 100px;
+  width: 100px;
+}
+.btn-accept {
+  background: linear-gradient(to right, #a11cf9, #7201c8);
+  color: white;
+  border-radius: 30px;
+  margin-left: 100px;
+  width: 100px;
+}
+input#inputGroupFile02 {
+  padding: 10px;
+}

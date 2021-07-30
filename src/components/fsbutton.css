@@ -1,28 +1,32 @@
-.ActivityStudio{
-    margin: 10px;
-    background-color: #A11CF9;
-    border-radius: 10px;
-    padding: 10px;
-    color: white;
+.Gap {
+  text-align: left;
+  margin: 20px;
 }
-.ZDSelfDiary{
-    margin: 10px;
-    background-color: #A11CF9;
-    border-radius: 10px;
-    padding: 10px;
-    color: white;
+.ActivityStudio {
+  margin: 10px;
+  background-color: #a11cf9;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
 }
-.ZDMotivationalShala{
-    margin: 10px;
-    background-color: #A11CF9;
-    border-radius: 10px;
-    padding: 10px;
-    color: white;
+.ZDSelfDiary {
+  margin: 10px;
+  background-color: #a11cf9;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
 }
-.AdiviseFromWise{
-    margin: 10px;
-    background-color: #A11CF9;
-    border-radius: 10px;
-    padding: 10px;
-    color: white;
+.ZDMotivationalShala {
+  margin: 10px;
+  background-color: #a11cf9;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+.AdiviseFromWise {
+  margin: 10px;
+  background-color: #a11cf9;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
 }

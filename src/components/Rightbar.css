@@ -1,0 +1,18 @@
+.rightbar-container {
+  position: relative;
+}
+.icon-continter {
+  position: absolute;
+  left: 105%;
+  top: -100vh;
+  border: 1px solid #897499;
+  padding: 20px;
+  background-color: #7201c8;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+}
+
+#icon {
+  margin-top: 25px;
+  color: #ffff;
+}

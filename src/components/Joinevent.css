@@ -1,0 +1,53 @@
+.container-lg {
+  margin: 50px auto;
+  margin-left: 50px;
+  width: 1200px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.4), 0 7px 20px 0 rgba(0, 0, 0, 0.4);
+  position: relative;
+  border-radius: 30px;
+  height: 950px;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+}
+
+.container-md {
+  background: linear-gradient(#a11cf9, #7201c8);
+  border-radius: 30px 0 0 30px;
+  width: 120px;
+}
+
+.container-sm {
+  border-radius: 0 0 0 0px;
+  position: relative;
+  background: white;
+  width: 1300px;
+  text-align: center;
+}
+
+#logo {
+  float: left;
+  height: 40px;
+  width: 140px;
+  margin-left: 2px;
+}
+.header-logo {
+  float: left;
+  background-color: #f0f1f6;
+  width: 850px;
+  height: 50px;
+}
+.form-content-one {
+  float: left;
+  width: 10px;
+  height: 950px;
+  background: linear-gradient(#a11cf9, #7201c8);
+  border-radius: 30px 0 0 30px;
+}
+.form-content-two {
+  float: right;
+  margin-top: 130px;
+  width: 35px;
+  height: 220px;
+  background: linear-gradient(#a11cf9, #7201c8);
+  border-radius: 50px 0 0 50px;
+}

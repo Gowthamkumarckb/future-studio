@@ -1,95 +1,162 @@
 import React from "react";
 import "./StepOne.css";
+import StepTwo from "./StepTwo";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function StepOne() {
   return (
-    <div>
+    <div className="space">
+      <h5>Future Studio</h5>
+      <button className="btn btn-JoiningForm" type="Submit">
+        ZD Joining Form
+      </button>
 
-      <div className="Gap">
-        <h3>Future Studio</h3>
+      <form>
+        <br />
+        <div>
+          <p style={{ color: "#6200D3" }}>Your Goal</p>
+          <textarea className="form-control" id="Yourgoal"></textarea>
+        </div>
+
+        <div>
+          <br />
+          <p style={{ color: "#6200D3" }}>
+            Why do you want to achieve this goal?
+          </p>
+          <textarea className="form-control" id="Achievegoal"></textarea>
+        </div>
         <br />
 
         <div>
-          <button className="Joiningform" type="Submit">
-            ZD Joining Form
-          </button>
+          <p style={{ color: "#6200D3" }}>Your Inspiration?</p>
+          <textarea className="form-control" id="Insperation"></textarea>
+        </div>
+        <br />
+
+        <div>
+          <p style={{ color: "#6200D3" }}>
+            Do you believe humanity still exist?
+          </p>
+          <div className="form-check form-check-inline">
+            <input
+              className="form-check-input"
+              type="radio"
+              name="inlineRadioOptions1"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label className="form-check-label" for="inlineRadio1">
+              Yes
+            </label>
+          </div>
+          <div className="form-check form-check-inline">
+            <input
+              className="form-check-input"
+              type="radio"
+              name="inlineRadioOptions1"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label className="form-check-label" for="inlineRadio2">
+              No
+            </label>
+          </div>
         </div>
 
-        <form>
-          <div>
-            <br />
-            <p style={{ color: "#6200D3" }}>Your Goal</p>
-            <textarea id="Yourgoal" />
-          </div>
-          <br />
-          <div>
-            <p style={{ color: "#6200D3" }}>
-              Why do you want to achieve this goal?
-            </p>
-            <textarea id="Achievegoal" />
-          </div>
-          <br />
-          <div>
-            <p style={{ color: "#6200D3" }}>
-              Your Inspiration?
-              </p>
-            <textarea id="Insperation" />
-          </div>
-          <br />
-          <div className="radio">
-            <label>
-              <p style={{ color: "#6200D3" }}>
-                Do you believe humanity still exist?
-              </p>
-              <input type="radio" className="rad" />
-              yes
-              <input type="radio" className="rad" />
-              no
+        <div>
+          <p style={{ color: "#6200D3" }}>Do you care for others?</p>
+          <div className="form-check form-check-inline">
+            <input
+              className="form-check-input"
+              type="radio"
+              name="inlineRadioOptions2"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label className="form-check-label" for="inlineRadio1">
+              Yes
             </label>
           </div>
-          <br />  
-          <div className="radio">
-            <label>
-              <p style={{ color: "#6200D3" }}>Do you care for others?</p>
-              <input type="radio" className="rad"/>
-              yes
-              <input type="radio" className="rad"/>
-              no
+          <div className="form-check form-check-inline">
+            <input
+              className="form-check-input"
+              type="radio"
+              name="inlineRadioOptions2"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label className="form-check-label" for="inlineRadio2">
+              No
             </label>
           </div>
-          <br />
-          <div className="radio">
-            <label>
-              <p style={{ color: "#6200D3" }}>
-                Will you be honest in achieving your goal/while doing your
-                tasks?
-              </p>
-              <input type="radio" className="rad"/>
-              yes
-              <input type="radio" className="rad" />
-              no
-            </label>
-          </div>
-          <br />
-          <div>
-            <label>
-              <p style={{ color: "#6200D3" }}>You believe you can?</p>
-              <input type="radio" className="rad"/>
-              yes
-              <input type="radio" className="rad"/>
-              no
-            </label>
-          </div>
-          <br />
-          <div>
+        </div>
 
-            <button className="Submit" type="Submit">
-              SUBMIT
-            </button>
-            
+        <div>
+          <p style={{ color: "#6200D3" }}>
+            Will you be honest in achieving your goal/while doing your tasks?
+          </p>
+
+          <div className="form-check form-check-inline">
+            <input
+              className="form-check-input"
+              type="radio"
+              name="inlineRadioOptions3"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label className="form-check-label" for="inlineRadio1">
+              Yes
+            </label>
           </div>
-        </form>
-      </div>
+          <div className="form-check form-check-inline">
+            <input
+              className="form-check-input"
+              type="radio"
+              name="inlineRadioOptions3"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label className="form-check-label" for="inlineRadio2">
+              No
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <p style={{ color: "#6200D3" }}>You believe you can?</p>
+
+          <div className="form-check form-check-inline">
+            <input
+              className="form-check-input"
+              type="radio"
+              name="inlineRadioOptions4"
+              id="inlineRadio1"
+              value="option1"
+            />
+            <label className="form-check-label" for="inlineRadio1">
+              Yes
+            </label>
+          </div>
+          <div className="form-check form-check-inline">
+            <input
+              className="form-check-input"
+              type="radio"
+              name="inlineRadioOptions4"
+              id="inlineRadio2"
+              value="option2"
+            />
+            <label className="form-check-label" for="inlineRadio2">
+              No
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <button className="btn btn-submit" type="Submit">
+            SUBMIT
+          </button>
+        </div>
+      </form>
     </div>
   );
 }

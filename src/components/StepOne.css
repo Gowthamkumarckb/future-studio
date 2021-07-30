@@ -1,46 +1,41 @@
-.Gap{
-    margin-left: 20px;
+.space {
+  margin: 20px;
+  text-align: left;
 }
-.Joiningform{
-    background-color:#6200D3;
-    border-color:#6200D3;
-    padding: 15px;
-    border-radius: 10px;
-    color: white;  
-    text-align: center;
-  }
-#Yourgoal{
-    height: 60px;
-    width: 400px;
-    border-color:lightgray;
-    border-radius: 10px;
-    background: lightgray; 
-  }
-  #Achievegoal{
-    height: 120px;
-    width: 400px;
-    border-color:lightgray;
-    border-radius: 10px;
-    background: lightgray; 
-  }
-  #Insperation{
-    height: 30px;
-    width: 400px;
-    border-color:lightgray;
-    border-radius: 10px;
-    background: lightgray; 
-  }
-  .Submit{
-    background-color: #6200D3;
-    border-color:#6200D3;
-    width: 120px;
-    height: 50px;
-    border-radius: 25px;
-    border-color: #6200D3;
-    color: white;
-    font-size: 15px;
-    text-align: center;
-  }
-  .rad{
-    margin: 10px;
-  }
+.btn-JoiningForm {
+  background: linear-gradient(to right, #a11cf9, #7201c8);
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
+#Yourgoal {
+  height: 40px;
+  width: 400px;
+  border-color: white;
+  border-radius: 10px;
+  background: lightgray;
+}
+#Achievegoal {
+  height: 80px;
+  width: 400px;
+  border-color: white;
+  border-radius: 10px;
+  background: lightgray;
+}
+#Insperation {
+  height: 40px;
+  width: 400px;
+  border-color: white;
+  border-radius: 10px;
+  background: lightgray;
+}
+.btn-submit {
+  background: linear-gradient(to left, #a11cf9, #7201c8);
+  color: white;
+  border-radius: 30px;
+  width: 150px;
+  margin-left: 100px;
+}
+.form-check-inline {
+  margin-left: 0px;
+}
